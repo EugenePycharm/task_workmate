@@ -43,7 +43,7 @@ cd csv_processor
 Запустите CLI с параметрами:
 
 ```bash
-py .\cli.py test.csv [--where "условие"] [--aggregate "агрегация"] [--order "сортировка"]
+py .\cli.py test.csv [--where "условие"] [--aggregate "агрегация"] [--order-by "сортировка"]
 ```
 
 **Пример использования:**
