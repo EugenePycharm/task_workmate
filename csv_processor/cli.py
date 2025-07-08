@@ -16,7 +16,7 @@ def main():
     args = parse_args()
     try:
         result = process_csv(
-            file_path=args.file,
+            file_path=args.file, #передача аргументов в обработчик
             where=args.where,
             aggregate=args.aggregate,
             order=args.order_by)

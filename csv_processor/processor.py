@@ -32,7 +32,7 @@ def apply_filter(data: List[Dict[str, str]], condition: str) -> List[Dict[str, s
                (op == '=' and row_num == num_val):
                 filtered.append(row)
         except ValueError:
-            # Сравниваем как строки
+            # сравниваем как строки
             if (op == '=' and row_val.lower() == value.lower()):
                 filtered.append(row)
     
